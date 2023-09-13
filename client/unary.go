@@ -17,5 +17,5 @@ func callSayHello(client pb.GreetServiceClient) {
 		log.Fatalf("could not greet: %v", err)
 	}
 
-	log.Printf("Log message %s", res.Message)
+	log.Printf("Message %s", res.Message)
 }
